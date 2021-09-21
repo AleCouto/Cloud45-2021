@@ -1,0 +1,92 @@
+﻿@model IEnumerable<BusinessLogic.User>
+
+
+@{ ViewData["Title"] = "Index"; }
+
+<h1>Indice</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccessLevel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Birthday)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Indentification)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FiscalNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PostalCode)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <th>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.AccessLevel)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.Name)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.Birthday)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.Email)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.Indentification)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.FiscalNumber)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.Address)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.PostalCode)
+            </th>
+
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.UserId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.UserId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.UserId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

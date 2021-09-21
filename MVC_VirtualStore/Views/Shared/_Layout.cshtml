@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Bio Plants</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    @*Adicionados*@
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css">
+    <script src="https://getbootstrap.com/docs/5.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--Link para Imagens/Card-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+    <div class="box-shadow mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-xs-12">
+                    <a asp-controller=" " asp-action="Index">Logim</a>
+                </div>
+                <div class="col-lg-4 col-md-12 col-xs-12">
+                    <a asp-controller=" " asp-action="Index">
+                        <img src="~/images/cart.png" alt="Cart" />
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-12 col-xs-12">
+                    <a asp-controller="Home" asp-action="Index">
+                        <img src="~/images/brand.png" alt="Bio Plants" />
+                    </a>
+                </div>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary" asp-controller="Shop" asp-action="Index">Plantas</button>
+                    <button type="button" class="btn btn-primary">Flores</button>
+                    <button type="button" class="btn btn-primary">Produtos</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        @RenderBody()
+
+        <footer class="footer text-muted">
+            <div class="container">
+                &copy; 2021 - Bio Plants. All rights reserved
+            </div>
+        </footer>
+ 
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

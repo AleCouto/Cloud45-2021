@@ -1,0 +1,15 @@
+/Users/acouto/Projects/Cloud45-2021/BusinessLogic/bin/Debug/net5.0/BusinessLogic.deps.json
+/Users/acouto/Projects/Cloud45-2021/BusinessLogic/bin/Debug/net5.0/BusinessLogic.dll
+/Users/acouto/Projects/Cloud45-2021/BusinessLogic/bin/Debug/net5.0/ref/BusinessLogic.dll
+/Users/acouto/Projects/Cloud45-2021/BusinessLogic/bin/Debug/net5.0/BusinessLogic.pdb
+/Users/acouto/Projects/Cloud45-2021/BusinessLogic/obj/Debug/net5.0/BusinessLogic.csproj.AssemblyReference.cache
+/Users/acouto/Projects/Cloud45-2021/BusinessLogic/obj/Debug/net5.0/BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/acouto/Projects/Cloud45-2021/BusinessLogic/obj/Debug/net5.0/BusinessLogic.AssemblyInfoInputs.cache
+/Users/acouto/Projects/Cloud45-2021/BusinessLogic/obj/Debug/net5.0/BusinessLogic.AssemblyInfo.cs
+/Users/acouto/Projects/Cloud45-2021/BusinessLogic/obj/Debug/net5.0/BusinessLogic.csproj.CoreCompileInputs.cache
+/Users/acouto/Projects/Cloud45-2021/BusinessLogic/obj/Debug/net5.0/BusinessLogic.dll
+/Users/acouto/Projects/Cloud45-2021/BusinessLogic/obj/Debug/net5.0/ref/BusinessLogic.dll
+/Users/acouto/Projects/Cloud45-2021/BusinessLogic/obj/Debug/net5.0/BusinessLogic.pdb
+/Users/acouto/Projects/Cloud45-2021/BusinessLogic/bin/Debug/net5.0/BusinessLogic.runtimeconfig.json
+/Users/acouto/Projects/Cloud45-2021/BusinessLogic/bin/Debug/net5.0/BusinessLogic.runtimeconfig.dev.json
+/Users/acouto/Projects/Cloud45-2021/BusinessLogic/obj/Debug/net5.0/BusinessLogic.genruntimeconfig.cache
