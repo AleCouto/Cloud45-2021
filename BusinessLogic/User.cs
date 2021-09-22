@@ -16,34 +16,34 @@ namespace BusinessLogic
         [Display(Name = "Name")]
         public string Name { get; set; }
 
-        [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy-}", ApplyFormatInEditMode = true)]
+        //[DataType(DataType.Date)]
+        //[DisplayFormat(DataFormatString = "{0:dd-MM-yyyy-}", ApplyFormatInEditMode = true)]
         [Display(Name = "Birthday")]
-        public DateTime? Birthday { get; set; }
+        public string? Birthday { get; set; }
 
-        [RegularExpression("[0-9]")]
+        //[RegularExpression("[0-9]")]
         [Display(Name = "Phone Number")]
-        public int PhoneNumber { get; set; }
+        public string? PhoneNumber { get; set; }
 
         [Required(ErrorMessage = "Email")]
         [Display(Name = "Email")]
         [RegularExpression(".+\\@.+\\..+", ErrorMessage = "Invalid email")]
         public string Email { get; set; }
 
-        [RegularExpression("[0-9]")]
+        //[RegularExpression("[0-9]")]
         [Display(Name = "Indentification")]
-        public string Indentification { get; set; }
+        public string? Indentification { get; set; }
 
-        [RegularExpression("[0-9]")]
+        //[RegularExpression("[0-9]")]
         [Display(Name = "Fiscal Number")]
-        public int FiscalNumber { get; set; }
+        public string? FiscalNumber { get; set; }
 
         [Display(Name = "Address")]
         public string Address { get; set; }
 
-        [RegularExpression("[0-7]")]
+        //[RegularExpression("[0-7]")]
         [Display(Name = "Postal Code")]
-        public int PostalCode { get; set; }
+        public string? PostalCode { get; set; }
 
         public IList<Order> Order { get; set; }
 
@@ -60,7 +60,7 @@ namespace BusinessLogic
             AccessLevel = accesslevel;
         }
 
-        public User(int userId, string name, DateTime birthday, int phoneNumber, string email, string address, int postalCode, string indentification, int fiscalNumber)
+        public User(int userId, string name, string birthday, string phoneNumber, string email, string address, string postalCode, string indentification, string fiscalNumber)
         {
             UserId = userId;
             Name = name;

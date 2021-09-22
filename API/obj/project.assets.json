@@ -7691,7 +7691,7 @@
       "outputPath": "/Users/acouto/Projects/Cloud45-2021/API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/acouto/.config/NuGet/NuGet.Config"
+        "/Users/acouto/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

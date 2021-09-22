@@ -17,7 +17,7 @@ namespace BusinessLogic
         public IList<Product> Product { get; set; }
 
         [Range(1, 1000)]
-        public int Quantity { get; set; }
+        public int? Quantity { get; set; }
 
         [Required(ErrorMessage = "Price")]
         [Range(1, 100)]
@@ -36,8 +36,6 @@ namespace BusinessLogic
             Product = (IList<Product>)product;
             Quantity = quantity;
             Price = price;
-            
-
         }
     }
 }

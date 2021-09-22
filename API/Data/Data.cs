@@ -46,9 +46,9 @@ namespace API.Data
 
              );
             modelBuilder.Entity<User>().HasData(
-                new User() { UserId = 1, AccessLevel = true, Name = "Alexandre Couto", Birthday = null, PhoneNumber = 222222222, Email = "aecmar@hotmail.com", Indentification = null, FiscalNumber = 0, Address = "Rua Vitimas da Guerra 30", PostalCode = 2825420 },
-                new User() { UserId = 2, AccessLevel = true, Name = "João Golçalves", Birthday = null, PhoneNumber = 333333333, Email = "jg@hotmail.com", Indentification = null, FiscalNumber = 0, Address = "Rua Lisboa 40", PostalCode = 1234567 },
-                new User() { UserId = 3, AccessLevel = true, Name = "Pedro Jose", Birthday = null, PhoneNumber = 444444444, Email = "apjose@hotmail.com", Indentification = null, FiscalNumber = 0, Address = "Rua Almirante reis 3", PostalCode = 7654321 }
+                new User() { UserId = 1, AccessLevel = true, Name = "Alexandre Couto", Birthday = "07/09/1970", PhoneNumber = "964176485", Email = "aecmar@hotmail.com", Indentification = "294260250", FiscalNumber = "294260250", Address = "Rua Vitimas da Guerra 30", PostalCode = "2825420" },
+                new User() { UserId = 2, AccessLevel = true, Name = "João Golçalves", Birthday = "22/04/2000 ", PhoneNumber = "333333333", Email = "jg@hotmail.com", Indentification = "0", FiscalNumber = "0", Address = "Rua Lisboa 40", PostalCode = "1234567" },
+                new User() { UserId = 3, AccessLevel = true, Name = "Pedro Jose", Birthday = "06/10/2005", PhoneNumber = "444444444", Email = "apjose@hotmail.com", Indentification = "0", FiscalNumber = "0", Address = "Rua Almirante reis 3", PostalCode = "7654321" }
              );
         }
 

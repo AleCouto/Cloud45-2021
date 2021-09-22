@@ -72,14 +72,14 @@ namespace MVC_BackOffice.Controllers
                     case "OrderId":
                         obj.OrderId = int.Parse(item.Value);
                         break;
+                    case "UserId":
+                        obj.UserId = int.Parse(item.Value);
+                        break;
                     case "Quantity":
                         obj.Quantity = int.Parse(item.Value);
                         break;
                     case "Price":
                         obj.Price = decimal.Parse(item.Value);
-                        break;
-                    case "UserId":
-                        obj.UserId = int.Parse(item.Value);
                         break;
                 }
             }

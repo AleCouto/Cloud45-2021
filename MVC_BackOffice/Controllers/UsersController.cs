@@ -72,14 +72,17 @@ namespace MVC_BackOffice.Controllers
                     case "ProductId":
                         obj.UserId = int.Parse(item.Value);
                         break;
+                    case "AccessLevel":
+                        obj.AccessLevel = Convert.ToBoolean(item.Value);
+                        break;
                     case "Name":
                         obj.Name = item.Value;
                         break;
                     case "Birthday":
-                        obj.Birthday = DateTime.Parse(item.Value);
+                        obj.Birthday = item.Value;
                         break;
                     case "PhoneNumber":
-                        obj.PhoneNumber = int.Parse(item.Value);
+                        obj.PhoneNumber = item.Value;
                         break;
                     case "Email":
                         obj.Email = item.Value;
@@ -88,13 +91,13 @@ namespace MVC_BackOffice.Controllers
                         obj.Indentification = item.Value;
                         break;
                     case "FiscalNumber":
-                        obj.FiscalNumber = int.Parse(item.Value);
+                        obj.FiscalNumber = item.Value;
                         break;
                     case "Address":
                         obj.Address = item.Value;
                         break;
                     case "PostalCode":
-                        obj.PostalCode = int.Parse(item.Value);
+                        obj.PostalCode = item.Value;
                         break;
                 }
             }
@@ -137,14 +140,17 @@ namespace MVC_BackOffice.Controllers
                     case "ProductId":
                         obj.UserId = int.Parse(item.Value);
                         break;
+                    //case "AccessLevel":
+                    //    obj.AccessLevel = Convert.ToBoolean(item.Value);
+                    //    break;
                     case "Name":
                         obj.Name = item.Value;
                         break;
                     case "Birthday":
-                        obj.Birthday = DateTime.Parse(item.Value);
+                        obj.Birthday = item.Value;
                         break;
                     case "PhoneNumber":
-                        obj.PhoneNumber = int.Parse(item.Value);
+                        obj.PhoneNumber = item.Value;
                         break;
                     case "Email":
                         obj.Email = item.Value;
@@ -153,13 +159,13 @@ namespace MVC_BackOffice.Controllers
                         obj.Indentification = item.Value;
                         break;
                     case "FiscalNumber":
-                        obj.FiscalNumber = int.Parse(item.Value);
+                        obj.FiscalNumber = item.Value;
                         break;
                     case "Address":
                         obj.Address = item.Value;
                         break;
                     case "PostalCode":
-                        obj.PostalCode = int.Parse(item.Value);
+                        obj.PostalCode = item.Value;
                         break;
                 }
             }
@@ -206,14 +212,17 @@ namespace MVC_BackOffice.Controllers
                         case "ProductId":
                             obj.UserId = int.Parse(item.Value);
                             break;
+                        case "AccessLevel":
+                            obj.AccessLevel = Convert.ToBoolean(item.Value);
+                            break;
                         case "Name":
                             obj.Name = item.Value;
                             break;
                         case "Birthday":
-                            obj.Birthday = DateTime.Parse(item.Value);
+                            obj.Birthday = item.Value;
                             break;
                         case "PhoneNumber":
-                            obj.PhoneNumber = int.Parse(item.Value);
+                            obj.PhoneNumber = item.Value;
                             break;
                         case "Email":
                             obj.Email = item.Value;
@@ -222,13 +231,13 @@ namespace MVC_BackOffice.Controllers
                             obj.Indentification = item.Value;
                             break;
                         case "FiscalNumber":
-                            obj.FiscalNumber = int.Parse(item.Value);
+                            obj.FiscalNumber = item.Value;
                             break;
                         case "Address":
                             obj.Address = item.Value;
                             break;
                         case "PostalCode":
-                            obj.PostalCode = int.Parse(item.Value);
+                            obj.PostalCode = item.Value;
                             break;
                     }
                 }

@@ -52,13 +52,13 @@ namespace MVC_BackOffice.Controllers
             return View(product);
         }
 
-        // GET: Categorys/Create
+        // GET: Products/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Categorys/Create
+        // POST: Products//Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)

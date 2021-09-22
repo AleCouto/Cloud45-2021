@@ -176,3 +176,5 @@
 /Users/acouto/Projects/Cloud45-2021/MVC_VirtualStore/bin/Debug/net5.0/Helper.dll
 /Users/acouto/Projects/Cloud45-2021/MVC_VirtualStore/bin/Debug/net5.0/Helper.pdb
 /Users/acouto/Projects/Cloud45-2021/MVC_VirtualStore/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
+/Users/acouto/Projects/Cloud45-2021/MVC_VirtualStore/obj/Debug/net5.0/Razor/Views/Home/Details.cshtml.g.cs
+/Users/acouto/Projects/Cloud45-2021/MVC_VirtualStore/obj/Debug/net5.0/Razor/Views/Home/Create.cshtml.g.cs

@@ -57,10 +57,10 @@ namespace API.Migrations
                         .IsRequired()
                         .HasColumnType("decimal(18, 2)");
 
-                    b.Property<int>("Quantity")
+                    b.Property<int?>("Quantity")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int?>("UserId")
+                    b.Property<int>("UserId")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("OrderId");
@@ -124,12 +124,17 @@ namespace API.Migrations
                         .HasMaxLength(60)
                         .HasColumnType("TEXT");
 
+                    b.Property<int?>("OrderId")
+                        .HasColumnType("INTEGER");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18, 2)");
 
                     b.HasKey("ProductId");
 
                     b.HasIndex("CategoryId");
+
+                    b.HasIndex("OrderId");
 
                     b.ToTable("Product");
 
@@ -160,7 +165,7 @@ namespace API.Migrations
                             Amount = 1,
                             CategoryId = 1,
                             Description = "Folhas grandes, redondas, com tonalidades verdes e listas verdes claras.",
-                            ImgFotoProduct = "/images/Calathea Orbifolia.png",
+                            ImgFotoProduct = "/images/CalatheaOrbifolia.png",
                             Name = "Calathea Orbifolia",
                             Price = 21m
                         },
@@ -238,15 +243,15 @@ namespace API.Migrations
                     b.Property<string>("Address")
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTime?>("Birthday")
+                    b.Property<string>("Birthday")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("FiscalNumber")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("FiscalNumber")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Indentification")
                         .HasColumnType("TEXT");
@@ -256,11 +261,11 @@ namespace API.Migrations
                         .HasMaxLength(60)
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("PhoneNumber")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("TEXT");
 
-                    b.Property<int>("PostalCode")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("PostalCode")
+                        .HasColumnType("TEXT");
 
                     b.HasKey("UserId");
 
@@ -272,56 +277,49 @@ namespace API.Migrations
                             UserId = 1,
                             AccessLevel = true,
                             Address = "Rua Vitimas da Guerra 30",
+                            Birthday = "07/09/1970",
                             Email = "aecmar@hotmail.com",
-                            FiscalNumber = 0,
+                            FiscalNumber = "294260250",
+                            Indentification = "294260250",
                             Name = "Alexandre Couto",
-                            PhoneNumber = 222222222,
-                            PostalCode = 2825420
+                            PhoneNumber = "964176485",
+                            PostalCode = "2825420"
                         },
                         new
                         {
                             UserId = 2,
                             AccessLevel = true,
                             Address = "Rua Lisboa 40",
+                            Birthday = "22/04/2000 ",
                             Email = "jg@hotmail.com",
-                            FiscalNumber = 0,
+                            FiscalNumber = "0",
+                            Indentification = "0",
                             Name = "João Golçalves",
-                            PhoneNumber = 333333333,
-                            PostalCode = 1234567
+                            PhoneNumber = "333333333",
+                            PostalCode = "1234567"
                         },
                         new
                         {
                             UserId = 3,
                             AccessLevel = true,
                             Address = "Rua Almirante reis 3",
+                            Birthday = "06/10/2005",
                             Email = "apjose@hotmail.com",
-                            FiscalNumber = 0,
+                            FiscalNumber = "0",
+                            Indentification = "0",
                             Name = "Pedro Jose",
-                            PhoneNumber = 444444444,
-                            PostalCode = 7654321
+                            PhoneNumber = "444444444",
+                            PostalCode = "7654321"
                         });
-                });
-
-            modelBuilder.Entity("OrderProduct", b =>
-                {
-                    b.Property<int>("OrderId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("OrderId", "ProductId");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("OrderProduct");
                 });
 
             modelBuilder.Entity("BusinessLogic.Order", b =>
                 {
                     b.HasOne("BusinessLogic.User", "User")
                         .WithMany("Order")
-                        .HasForeignKey("UserId");
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("User");
                 });
@@ -334,25 +332,21 @@ namespace API.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("BusinessLogic.Order", "Order")
+                        .WithMany("Product")
+                        .HasForeignKey("OrderId");
+
                     b.Navigation("Category");
-                });
 
-            modelBuilder.Entity("OrderProduct", b =>
-                {
-                    b.HasOne("BusinessLogic.Order", null)
-                        .WithMany()
-                        .HasForeignKey("OrderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("BusinessLogic.Product", null)
-                        .WithMany()
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("Order");
                 });
 
             modelBuilder.Entity("BusinessLogic.Category", b =>
+                {
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("BusinessLogic.Order", b =>
                 {
                     b.Navigation("Product");
                 });
