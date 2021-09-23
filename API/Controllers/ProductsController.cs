@@ -25,6 +25,7 @@ namespace API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> GetProduct()
         {
+                                          
             return await _context.Product.ToListAsync();
         }
 
@@ -38,7 +39,6 @@ namespace API.Controllers
             {
                 return NotFound();
             }
-
             return product;
         }
 
@@ -51,7 +51,7 @@ namespace API.Controllers
             {
                 return BadRequest();
             }
-
+            
             _context.Entry(product).State = EntityState.Modified;
 
             try
@@ -69,7 +69,6 @@ namespace API.Controllers
                     throw;
                 }
             }
-
             return NoContent();
         }
 

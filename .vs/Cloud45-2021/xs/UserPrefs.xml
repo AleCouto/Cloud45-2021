@@ -1,40 +1,22 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Controllers/ProductsController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVC_VirtualStore/Views/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="MVC_BackOffice/Views/Categorys/Index.cshtml" Line="1" Column="1" />
-      <File FileName="MVC_BackOffice/Views/Orders/Index.cshtml" Line="54" Column="21" />
-      <File FileName="MVC_BackOffice/Views/Orders/Edit.cshtml" Line="43" Column="7" />
-      <File FileName="MVC_BackOffice/Views/Orders/Details.cshtml" Line="1" Column="1" />
-      <File FileName="MVC_BackOffice/Views/Products/Index.cshtml" Line="68" Column="9" />
-      <File FileName="MVC_BackOffice/Views/Products/Create.cshtml" Line="40" Column="1" />
-      <File FileName="MVC_BackOffice/Controllers/BlobStorageController.cs" Line="17" Column="10" />
-      <File FileName="API/Controllers/UsersController.cs" Line="1" Column="1" />
-      <File FileName="API/Controllers/ProductsController.cs" Line="1" Column="1" />
+      <File FileName="MVC_BackOffice/Views/Products/Create.cshtml" Line="33" Column="83" />
+      <File FileName="MVC_VirtualStore/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="MVC_VirtualStore/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Cloud45-2021" expanded="True">
-            <Node name="API" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="ProductsController.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="BusinessLogic" expanded="True" />
-            <Node name="MVC_BackOffice" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Categorys" expanded="True" />
-                <Node name="Orders" expanded="True" />
-                <Node name="Products" expanded="True" />
-                <Node name="Users" expanded="True" />
-              </Node>
-            </Node>
             <Node name="MVC_VirtualStore" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>

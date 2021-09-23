@@ -25,6 +25,7 @@ namespace API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Category>>> GetCategory()
         {
+
             return await _context.Category.ToListAsync();
         }
 

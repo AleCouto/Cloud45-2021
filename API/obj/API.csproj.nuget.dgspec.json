@@ -14,7 +14,7 @@
         "outputPath": "/Users/acouto/Projects/Cloud45-2021/API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/acouto/.nuget/NuGet/NuGet.Config"
+          "/Users/acouto/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -101,7 +101,7 @@
         "outputPath": "/Users/acouto/Projects/Cloud45-2021/BusinessLogic/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/acouto/.nuget/NuGet/NuGet.Config"
+          "/Users/acouto/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

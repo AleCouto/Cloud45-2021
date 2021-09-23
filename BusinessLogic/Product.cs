@@ -38,5 +38,20 @@ namespace BusinessLogic
         public Product()
         {
         }
+
+        public Product(int productId, string name, int amount)
+        {
+            ProductId = productId;
+            Name = name;
+            Amount = amount;
+        }
+
+        public Product(int productId, string name, int amount, string description, Category category)
+        {
+            ProductId = productId;
+            Name = name;
+            Amount = amount;
+            Category = category;
+        }
     }
 }

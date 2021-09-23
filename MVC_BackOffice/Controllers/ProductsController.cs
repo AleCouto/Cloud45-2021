@@ -3,17 +3,19 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using API.Data;
 using BusinessLogic;
 using Helper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
 
 namespace MVC_BackOffice.Controllers
 {
     public class ProductsController : Controller
     {
-        // GET: Categorys
+        // GET: Products
         public ActionResult Index()
         {
             List<Product> lst = new List<Product>();
@@ -33,7 +35,7 @@ namespace MVC_BackOffice.Controllers
             return View(lst);
         }
 
-        // GET: Categorys/Details/5
+        // GET: Products/Details/5
         public ActionResult Details(int id)
         {
             Product product = new Product();
@@ -55,6 +57,19 @@ namespace MVC_BackOffice.Controllers
         // GET: Products/Create
         public ActionResult Create()
         {
+
+            // Busacar Lista de Categorias Para Dropdownlist na criação de um novo produto
+            List<Category> lst = new List<Category>();
+            //Connect To API using class Helper
+            ApiConnector ac = new ApiConnector();
+            string result = ac.Get(ConstantsCategory.APIController + ConstantsCategory.APIController_Action_Get);
+            // convert Json
+            lst = JsonConvert.DeserializeObject<List<Category>>(result);
+
+
+            /////Erro na hora de passar lista de categorias \\\\\\\\\
+          
+            ViewBag["CategoryId"] = new SelectList(lst);
             return View();
         }
 
