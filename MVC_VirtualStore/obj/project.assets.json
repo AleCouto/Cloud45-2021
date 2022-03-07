@@ -9225,11 +9225,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/acouto/Projects/Cloud45-2021/MVC_VirtualStore/MVC_VirtualStore.csproj",
+      "projectUniqueName": "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/MVC_VirtualStore/MVC_VirtualStore.csproj",
       "projectName": "MVC_VirtualStore",
-      "projectPath": "/Users/acouto/Projects/Cloud45-2021/MVC_VirtualStore/MVC_VirtualStore.csproj",
+      "projectPath": "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/MVC_VirtualStore/MVC_VirtualStore.csproj",
       "packagesPath": "/Users/acouto/.nuget/packages/",
-      "outputPath": "/Users/acouto/Projects/Cloud45-2021/MVC_VirtualStore/obj/",
+      "outputPath": "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/MVC_VirtualStore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/acouto/.config/NuGet/NuGet.Config"
@@ -9244,14 +9244,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/acouto/Projects/Cloud45-2021/API/API.csproj": {
-              "projectPath": "/Users/acouto/Projects/Cloud45-2021/API/API.csproj"
+            "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/API/API.csproj": {
+              "projectPath": "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/API/API.csproj"
             },
-            "/Users/acouto/Projects/Cloud45-2021/BusinessLogic/BusinessLogic.csproj": {
-              "projectPath": "/Users/acouto/Projects/Cloud45-2021/BusinessLogic/BusinessLogic.csproj"
+            "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/BusinessLogic/BusinessLogic.csproj": {
+              "projectPath": "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/BusinessLogic/BusinessLogic.csproj"
             },
-            "/Users/acouto/Projects/Cloud45-2021/Helper/Helper.csproj": {
-              "projectPath": "/Users/acouto/Projects/Cloud45-2021/Helper/Helper.csproj"
+            "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/Helper/Helper.csproj": {
+              "projectPath": "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/Helper/Helper.csproj"
             }
           }
         }
@@ -9283,7 +9283,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
       }
     }
   }

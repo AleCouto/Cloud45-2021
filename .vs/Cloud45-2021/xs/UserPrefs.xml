@@ -8,18 +8,7 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Cloud45-2021" expanded="True">
-            <Node name="MVC_BackOffice" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="CategorysController.cs" selected="True" />
-              </Node>
-              <Node name="Views" expanded="True">
-                <Node name="Orders" expanded="True" />
-                <Node name="Products" expanded="True" />
-                <Node name="Users" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node />
         </State>
       </Pad>
     </Pads>

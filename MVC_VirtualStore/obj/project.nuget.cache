@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J1hC8tdr+SAIypoR06OGjDV7b4T2wr8lW5pFXasz4+RgHpkDd/vejXJnUg+vuOq9PWjSsiKqA6oZfp/3WdDXNw==",
+  "dgSpecHash": "Dhb7JcewoOz6SNnyDp+XKbfV7NXXuU5kdUSsItYGXJdxuWo1+ft2G+pXKClISuLZGxn765kERGokwMc9+rv6jA==",
   "success": true,
-  "projectFilePath": "/Users/acouto/Projects/Cloud45-2021/MVC_VirtualStore/MVC_VirtualStore.csproj",
+  "projectFilePath": "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/MVC_VirtualStore/MVC_VirtualStore.csproj",
   "expectedPackageFiles": [
     "/Users/acouto/.nuget/packages/humanizer.core/2.2.0/humanizer.core.2.2.0.nupkg.sha512",
     "/Users/acouto/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

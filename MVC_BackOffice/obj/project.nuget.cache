@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aLskZ28fhYw+1Unlkx/SyF0Lf2NXUhD/6CmXNnDtkgc6/72gwIP+FXPgkIsb8Udzkxp40sMhextRBhhKitv46g==",
+  "dgSpecHash": "tD88K11UxRsZDMOCGkQtMeNdmz3Iv7anXFVOpS65FJ60kVHNgUY/s3whkf9NYiyWpWtKvNSX1V1Mz/KwOwc3Og==",
   "success": true,
-  "projectFilePath": "/Users/acouto/Projects/Cloud45-2021/MVC_BackOffice/MVC_BackOffice.csproj",
+  "projectFilePath": "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/MVC_BackOffice/MVC_BackOffice.csproj",
   "expectedPackageFiles": [
     "/Users/acouto/.nuget/packages/humanizer.core/2.2.0/humanizer.core.2.2.0.nupkg.sha512",
     "/Users/acouto/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

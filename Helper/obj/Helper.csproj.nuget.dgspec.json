@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/acouto/Projects/Cloud45-2021/Helper/Helper.csproj": {}
+    "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/Helper/Helper.csproj": {}
   },
   "projects": {
-    "/Users/acouto/Projects/Cloud45-2021/Helper/Helper.csproj": {
+    "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/Helper/Helper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/acouto/Projects/Cloud45-2021/Helper/Helper.csproj",
+        "projectUniqueName": "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/Helper/Helper.csproj",
         "projectName": "Helper",
-        "projectPath": "/Users/acouto/Projects/Cloud45-2021/Helper/Helper.csproj",
+        "projectPath": "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/Helper/Helper.csproj",
         "packagesPath": "/Users/acouto/.nuget/packages/",
-        "outputPath": "/Users/acouto/Projects/Cloud45-2021/Helper/obj/",
+        "outputPath": "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/Helper/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/acouto/.config/NuGet/NuGet.Config"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
         }
       }
     }

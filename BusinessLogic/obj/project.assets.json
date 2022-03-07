@@ -5766,11 +5766,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/acouto/Projects/Cloud45-2021/BusinessLogic/BusinessLogic.csproj",
+      "projectUniqueName": "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/BusinessLogic/BusinessLogic.csproj",
       "projectName": "BusinessLogic",
-      "projectPath": "/Users/acouto/Projects/Cloud45-2021/BusinessLogic/BusinessLogic.csproj",
+      "projectPath": "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/BusinessLogic/BusinessLogic.csproj",
       "packagesPath": "/Users/acouto/.nuget/packages/",
-      "outputPath": "/Users/acouto/Projects/Cloud45-2021/BusinessLogic/obj/",
+      "outputPath": "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/BusinessLogic/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/acouto/.config/NuGet/NuGet.Config"
@@ -5827,7 +5827,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
       }
     }
   }

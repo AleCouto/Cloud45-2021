@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZDvyVmH6AYmXX2RbS/mI096SkunRrzV59nrzZHCq/695FHoBGtFHPEuX/ErJJvOIpcNOP0AgwrRXP5CF7QFa6Q==",
+  "dgSpecHash": "V2me5LVF8a7+6wsxBb2I3eMmxvj5zQwjhY/K4m/uZ1kzNt6U+QGw8SBhrLEhXq8Is/JsgPLY14vTn5dPStgX2Q==",
   "success": true,
-  "projectFilePath": "/Users/acouto/Projects/Cloud45-2021/BusinessLogic/BusinessLogic.csproj",
+  "projectFilePath": "/Users/acouto/Arquivos/DevFolder/Projects_C#/Cloud45-2021/BusinessLogic/BusinessLogic.csproj",
   "expectedPackageFiles": [
     "/Users/acouto/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/acouto/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
